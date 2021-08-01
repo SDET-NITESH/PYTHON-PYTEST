@@ -1,22 +1,37 @@
-"""Virtual Enviornment (Python Libraries) Required to Run Scripts"""
-Json
-Json Compare - Have made some changes in library to make scripts run
-json_path_rwxt
-Pandas
-Behave
-os
-configparser
-allure
-requests
-warnings
-
-"""Instructions to run the test"""
-1. Inside the runner file there is one batch file present go ahead and run the batch file, but that would require changes to be done in the path part.
-2. Another way is execute the below batch file command in terminal of your IDE.This will also generate allure report.
-
-pytest get_time_series.py   --alluredir C:\Users\nitesh.agarwal\PycharmProjects\centime_pytest_framework\test_result & cd /d C:\Users\nitesh.agarwal\PycharmProjects\centime_pytest_framework\test_result & allure generate --clean C:\REPORTS
-
-
-"""Report View"""
-1. Go to result folder wherever the result was stored.
-2. Go to allure report and do open index.html in any of your browser.
+allure-pytest==2.8.16
+allure-python-commons==2.8.16
+atomicwrites==1.4.0
+attrs==19.3.0
+certifi==2020.4.5.2
+chardet==3.0.4
+click==7.1.2
+colorama==0.4.3
+configparser==5.0.0
+decorator==4.4.2
+et-xmlfile==1.0.1
+idna==2.9
+importlib-metadata==1.6.1
+jdcal==1.4.1
+jsonpath-rw==1.4.0
+Logbook==1.5.3
+more-itertools==8.4.0
+openpyxl==3.0.4
+packaging==20.4
+pact-python==1.2.0
+pactverify==1.7.5
+pluggy==0.13.1
+ply==3.11
+psutil==5.7.2
+py==1.8.1
+PyMySQL==0.9.3
+pyparsing==2.4.7
+pytest==5.4.3
+PyYAML==5.3.1
+requests==2.23.0
+six==1.15.0
+urllib3==1.25.9
+wcwidth==0.2.4
+xlrd==1.2.0
+xlutils==2.0.0
+xlwt==1.3.0
+zipp==3.1.0
